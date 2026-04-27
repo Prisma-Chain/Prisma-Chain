@@ -34,9 +34,9 @@ designed for delegators, protocols, and ecosystems that require:
 
 ## 🚀 Core Features
 
-<table>
+<table width="100%">
 <tr>
-<td width="50%">
+<td>
 
 ### 🔒 Reliability
 
@@ -47,7 +47,7 @@ designed for delegators, protocols, and ecosystems that require:
 * Zero-downtime mindset
 
 </td>
-<td width="50%">
+<td>
 
 ### ⚡ Performance
 
@@ -61,7 +61,7 @@ designed for delegators, protocols, and ecosystems that require:
 </tr>
 
 <tr>
-<td width="50%">
+<td>
 
 ### 📡 Observability
 
@@ -72,7 +72,7 @@ designed for delegators, protocols, and ecosystems that require:
 * Performance insights
 
 </td>
-<td width="50%">
+<td>
 
 ### 🛡 Security
 
@@ -85,7 +85,6 @@ designed for delegators, protocols, and ecosystems that require:
 </td>
 </tr>
 </table>
-
 
 ---
 
