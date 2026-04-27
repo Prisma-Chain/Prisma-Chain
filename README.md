@@ -34,29 +34,58 @@ designed for delegators, protocols, and ecosystems that require:
 
 ## 🚀 Core Features
 
-### 🔒 Reliability First
+<table>
+<tr>
+<td width="50%">
 
-* 99.99% uptime SLA mindset
-* Fault-tolerant architecture
-* Automated failover systems
+### 🔒 Reliability
 
-### ⚡ Performance Optimized
+`stable • fault-tolerant • consistent`
+
+* Automated failover
+* High availability
+* Zero-downtime mindset
+
+</td>
+<td width="50%">
+
+### ⚡ Performance
+
+`fast • optimized • global`
 
 * Low-latency infrastructure
-* Global node distribution
-* Optimized consensus participation
+* Efficient consensus
+* Geo-distributed nodes
 
-### 📡 Full Observability
+</td>
+</tr>
 
-* Real-time monitoring
-* Alerting & anomaly detection
-* Transparent performance metrics
+<tr>
+<td width="50%">
 
-### 🛡 Security by Design
+### 📡 Observability
 
-* Hardened systems
-* Key isolation practices
-* Continuous security checks
+`visible • real-time • traceable`
+
+* Metrics & alerting
+* Continuous monitoring
+* Performance insights
+
+</td>
+<td width="50%">
+
+### 🛡 Security
+
+`isolated • hardened • verified`
+
+* Key isolation
+* Secure environments
+* Continuous checks
+
+</td>
+</tr>
+</table>
+
 
 ---
 
