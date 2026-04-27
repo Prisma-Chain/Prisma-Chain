@@ -71,24 +71,24 @@ designed for delegators, protocols, and ecosystems that require:
 
 ---
 
-## 🌐 Supported Networks
+## 📊 Live Metrics
 
-* Cosmos Ecosystem
-* Celestia
-* EVM-compatible chains
-* Custom validator deployments
+<p align="center">
+  <img src="https://img.shields.io/badge/HEALTH-98.7-00FFC6?style=flat-square&labelColor=0b0f1a"/>
+  <img src="https://img.shields.io/badge/UPTIME-99.99%25-00E0FF?style=flat-square&labelColor=0b0f1a"/>
+  <img src="https://img.shields.io/badge/LATENCY-%3C300ms-00B2FF?style=flat-square&labelColor=0b0f1a"/>
+  <img src="https://img.shields.io/badge/RESPONSE-%3C5m-00FFC6?style=flat-square&labelColor=0b0f1a"/>
+</p>
 
----
+```yaml
+status: operational
+environment: production
 
-## 📊 Performance Metrics
-
-```yaml id="f6l9gk"
 uptime: 99.99%
 latency: < 300ms
-monitoring: 24/7
+monitoring: active
 incident_response: < 5 min
 ```
-
 ---
 
 ## 🤝 Why Prisma Chain?
