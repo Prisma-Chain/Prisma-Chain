@@ -2,27 +2,33 @@
   <img src="https://raw.githubusercontent.com/Prisma-Chain/assets/main/prismachain.png" alt="Prisma Chain Banner"/>
 </p>
 
-<p align="center"><b>Validator Infrastructure — Reimagined as a Product</b></p>
-
 <p align="center">
-Reliable. Observable. Engineered for performance.
+  <b>Validator as a Product</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Uptime-99.99%25-6C5CE7?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Latency-%3C300ms-00CEC9?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Monitoring-24%2F7-0984E3?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Operational-2ECC71?style=for-the-badge" />
+  <i>precision • resilience • real-time validation</i>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE-00E0FF?style=for-the-badge&labelColor=0b0f1a"/>
+  <img src="https://img.shields.io/badge/UPTIME-99.99%25-00FFC6?style=for-the-badge&labelColor=0b0f1a"/>
+  <img src="https://img.shields.io/badge/LATENCY-%3C300ms-00B2FF?style=for-the-badge&labelColor=0b0f1a"/>
 </p>
 
 ---
 
 ## ⚡ What is Prisma Chain?
 
-Prisma Chain is not just a validator.
-It is a **high-performance validation service** designed for delegators, protocols, and ecosystems that demand consistency and control.
+> Not just validating blocks —
+> **maintaining network integrity in real time.**
 
-We treat validator operations as a **product**, not a background process.
+Prisma Chain is a **high-performance validation service**
+designed for delegators, protocols, and ecosystems that require:
+
+* stability under load
+* predictable performance
+* transparent behavior
 
 ---
 
@@ -97,4 +103,7 @@ Because validator infrastructure should be:
 Not improvised.
 
 ---
-
+<p align="center">
+  <b>Prisma Chain</b><br/>
+  <i>Precision infrastructure for decentralized networks</i>
+</p>
