@@ -8,6 +8,13 @@
 Reliable. Observable. Engineered for performance.
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Uptime-99.99%25-6C5CE7?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Latency-%3C300ms-00CEC9?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Monitoring-24%2F7-0984E3?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Operational-2ECC71?style=for-the-badge" />
+</p>
+
 ---
 
 ## ⚡ What is Prisma Chain?
