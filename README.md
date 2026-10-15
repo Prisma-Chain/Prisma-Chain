@@ -1,137 +1,79 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Prisma-Chain/assets/main/prismachain.png" alt="Prisma Chain Banner"/>
+  <img src="https://raw.githubusercontent.com/Prisma-Chain/assets/main/prismachain.png" alt="Prisma Chain"/>
+</p>
+
+<h3 align="center">A validator built on light.</h3>
+
+<p align="center">
+  Hardware-signed validators for proof-of-stake networks.<br/>
+  Six chains, one signing substrate, one named engineer per pager.
 </p>
 
 <p align="center">
-  <b>Validator as a Product</b>
+  <a href="https://prismachain.it.com/"><b>prismachain.it.com</b></a> &nbsp;│&nbsp;
+  <a href="https://prismachain.it.com/explorer/">Blobspace Explorer</a> &nbsp;│&nbsp;
+  <a href="https://x.com/prismablocks">X</a> &nbsp;│&nbsp;
+  <a href="https://medium.com/@PrismaCo">Medium</a>
+  
 </p>
+
+## Refraction
+
+A prism doesn't make light. It takes one beam and splits it into separate colours. Prisma works the same way: one signing setup feeds six networks, and each network has its own operator who reads its upgrades and carries its pager.
+
+We keep the list short on purpose. Every chain has its own consensus, rekey cadence and upgrade path. Before we sign on mainnet, a chain sits through a **90-day testnet observation window** with an engineer assigned to it full-time. If nobody on the team can read a chain closely, we don't run it.
+
+## Channels
+
+| | Channel | Network | What it is | Validator |
+|:-:|:-:|---|---|---|
+| 🔴 | `CH 01` | **Dymension** | RollApp hub: modular rollups settled on the Dymension Hub | [ping.pub ↗](https://ping.pub/dymension/staking/dymvaloper1s6vgnk3hnr8aj52q9kjzy2qg4hh0jz8pfe3gdd) |
+| 🟠 | `CH 02` | **Nibiru** | Smart-contract chain for DeFi | [site ↗](https://prismachain.it.com/#networks) |
+| 🟡 | `CH 03` | **KYVE** | Data validation and archival for other blockchains | [site ↗](https://prismachain.it.com/#networks) |
+| 🟢 | `CH 04` | **Starknet** | Permissionless ZK-rollup on Ethereum, STARK-proven execution | [site ↗](https://prismachain.it.com/#networks) |
+| 🔵 | `CH 05` | **Fetch.ai** | Infrastructure for autonomous agents and AI services | [ping.pub ↗](https://ping.pub/fetchhub/staking/fetchvaloper1cfgswfuzmdz4f8n2anct5qzj4crvt3cj4hfxm9) |
+| 🟣 | `CH 06` | **Akash** | Open marketplace for decentralized compute | [mintscan ↗](https://www.mintscan.io/akash/validators/akashvaloper1m6mzzsrgag22n9dtdwsmnrtjqzpudfz6gdhc9j) |
+
+## From wallet to signed block
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Prisma-Chain/assets/main/signing-flow.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Prisma-Chain/assets/main/signing-flow-light.svg">
+  <img src="https://raw.githubusercontent.com/Prisma-Chain/assets/main/signing-flow-light.svg" width="100%" alt="Your wallet delegates to the Prisma validator; hardware modules in three datacenters reach a 3-of-5 quorum; the signed block's protocol rewards, minus commission, go straight back to your wallet"/>
+</picture>
+
+- **Delegate.** Stake from any wallet the network supports. Your tokens never leave your custody, and you aren't locked into any platform.
+- **Sign.** Hardware modules in three datacenters have to reach a 3-of-5 quorum before a block is signed. Keys stay inside the hardware, and no key is reused across chains.
+- **Earn.** Rewards come straight from the protocol to your wallet. Our commission is the only cut, and there's no minimum delegation on our side.
+
+## Blobspace Explorer
+
+<a href="https://prismachain.it.com/explorer/"><b>prismachain.it.com/explorer</b></a> is our public tool. It answers one question: **how much do rollups save by posting data to Celestia instead of Ethereum?**
+
+It reads live from Celenium and public Celestia REST, prices each blob against Ethereum calldata at about 30 gwei, and refreshes every 12 seconds.
+
+| If you want to know… | Open |
+|---|---|
+| How much data Celestia holds right now, and what it would have cost on Ethereum | [Dashboard](https://prismachain.it.com/explorer/celestia) |
+| Which rollups write the most data, and how many dollars each one has saved | [DA League](https://prismachain.it.com/explorer/celestia/savings) |
+| What each namespace's data looks like: millions of micro-blobs or a few MB-scale ones | [Namespace Workbench](https://prismachain.it.com/explorer/celestia/namespace-workbench) |
+| Which namespaces are still writing and which went quiet months ago | [Namespaces](https://prismachain.it.com/explorer/celestia/namespaces) |
+| What landed in the last few blocks, blob by blob | [Blobs](https://prismachain.it.com/explorer/celestia/blobs) · [Blocks](https://prismachain.it.com/explorer/celestia/blocks) · [Transactions](https://prismachain.it.com/explorer/celestia/transactions) |
+| The same picture on Ethereum's side: base fee, gas use, EIP-4844 blob space | [Ethereum](https://prismachain.it.com/explorer/ethereum) |
+
+> [!NOTE]
+> Savings are an estimate. They compare what a namespace actually paid on Celestia with what the same bytes would cost as Ethereum calldata at a fixed gas price. Blob-space pricing on Ethereum would give a different, lower number.
+
+## Why there are no uptime badges here
+
+A badge in a README is a number someone typed. We'd rather you check the chain itself: every validator above links to an independent explorer that shows its signatures, missed blocks and jail history.
+
+> *A validator is judged on the block it did not miss, not the one it announced.*
+> We publish every signature, every outage and every post-mortem.
+
+<br/>
 
 <p align="center">
-  <i>precision • resilience • real-time validation</i>
+  <sub>Prisma Chain · built on light · 
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ACTIVE-00E0FF?style=for-the-badge&labelColor=0b0f1a"/>
-  <img src="https://img.shields.io/badge/UPTIME-99.99%25-00FFC6?style=for-the-badge&labelColor=0b0f1a"/>
-  <img src="https://img.shields.io/badge/LATENCY-%3C300ms-00B2FF?style=for-the-badge&labelColor=0b0f1a"/>
-</p>
-
----
-
-## ⚡ What is Prisma Chain?
-
-> Not just validating blocks —
-> **maintaining network integrity in real time.**
-
-Prisma Chain is a **high-performance validation service**
-designed for delegators, protocols, and ecosystems that require:
-
-* stability under load
-* predictable performance
-* transparent behavior
-
----
-
-## 🚀 Core Features
-
-<table width="100%">
-<tr>
-<td>
-
-### 🔒 Reliability
-
-`stable • fault-tolerant • consistent`
-
-* Automated failover
-* High availability
-* Zero-downtime mindset
-
-</td>
-<td>
-
-### ⚡ Performance
-
-`fast • optimized • global`
-
-* Low-latency infrastructure
-* Efficient consensus
-* Geo-distributed nodes
-
-</td>
-</tr>
-
-<tr>
-<td>
-
-### 📡 Observability
-
-`visible • real-time • traceable`
-
-* Metrics & alerting
-* Continuous monitoring
-* Performance insights
-
-</td>
-<td>
-
-### 🛡 Security
-
-`isolated • hardened • verified`
-
-* Key isolation
-* Secure environments
-* Continuous checks
-
-</td>
-</tr>
-</table>
-
----
-
-## 🧩 Product Capabilities
-
-| Capability            | Description                                 |
-| --------------------- | ------------------------------------------- |
-| **Validator Ops**     | Managed validation across multiple networks |
-| **Monitoring Stack**  | 24/7 system observability                   |
-| **Failover System**   | Instant recovery mechanisms                 |
-| **Performance Layer** | Latency and uptime optimization             |
-
----
-
-## 📊 Live Metrics
-
-<p align="center">
-  <img src="https://img.shields.io/badge/HEALTH-98.7-00FFC6?style=flat-square&labelColor=0b0f1a"/>
-  <img src="https://img.shields.io/badge/UPTIME-99.99%25-00E0FF?style=flat-square&labelColor=0b0f1a"/>
-  <img src="https://img.shields.io/badge/LATENCY-%3C300ms-00B2FF?style=flat-square&labelColor=0b0f1a"/>
-  <img src="https://img.shields.io/badge/RESPONSE-%3C5m-00FFC6?style=flat-square&labelColor=0b0f1a"/>
-</p>
-
-```yaml
-status: operational
-environment: production
-
-uptime: 99.99%
-latency: < 300ms
-monitoring: active
-incident_response: < 5 min
-```
----
-
-## 🤝 Why Prisma Chain?
-
-Because validator infrastructure should be:
-
-* Predictable
-* Transparent
-* Productized
-* Scalable
-
-Not improvised.
-
----
-<p align="center">
-  <b>Prisma Chain</b><br/>
-  <i>Precision infrastructure for decentralized networks</i>
-</p>
