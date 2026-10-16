@@ -74,6 +74,6 @@ A badge in a README is a number someone typed. We'd rather you check the chain i
 <br/>
 
 <p align="center">
-  <sub>Prisma Chain · built on light · <a href="mailto:hello@prismachain.xyz">hello@prismachain.xyz</a></sub>
+  <sub>Prisma Chain · built on light 
 </p>
 
