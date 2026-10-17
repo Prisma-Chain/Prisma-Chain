@@ -13,8 +13,8 @@
   <a href="https://prismachain.it.com/"><b>prismachain.it.com</b></a> &nbsp;│&nbsp;
   <a href="https://prismachain.it.com/explorer/">Blobspace Explorer</a> &nbsp;│&nbsp;
   <a href="https://x.com/prismablocks">X</a> &nbsp;│&nbsp;
-  <a href="https://medium.com/@PrismaCo">Medium</a>
-  
+  <a href="https://medium.com/@PrismaCo">Medium</a> &nbsp;│&nbsp;
+  <a href="mailto:hello@prismachain.xyz">hello@prismachain.xyz</a>
 </p>
 
 ## Refraction
@@ -33,6 +33,12 @@ We keep the list short on purpose. Every chain has its own consensus, rekey cade
 | 🟢 | `CH 04` | **Starknet** | Permissionless ZK-rollup on Ethereum, STARK-proven execution | [site ↗](https://prismachain.it.com/#networks) |
 | 🔵 | `CH 05` | **Fetch.ai** | Infrastructure for autonomous agents and AI services | [ping.pub ↗](https://ping.pub/fetchhub/staking/fetchvaloper1cfgswfuzmdz4f8n2anct5qzj4crvt3cj4hfxm9) |
 | 🟣 | `CH 06` | **Akash** | Open marketplace for decentralized compute | [mintscan ↗](https://www.mintscan.io/akash/validators/akashvaloper1m6mzzsrgag22n9dtdwsmnrtjqzpudfz6gdhc9j) |
+
+**On testnet**
+
+| | Channel | Network | What it is | Validator |
+|:-:|:-:|---|---|---|
+| ⚪ | `TEST` | **Celestia** · `mocha-5` | The data-availability layer our [Blobspace Explorer](https://prismachain.it.com/explorer/) reads from | [Krews dashboard ↗](https://celestia-dashboard.krews.xyz/celestia-mocha/validators/celestiavaloper1egp30ktgq9805l6es7vs9skl7yt2q7wrj9jc4u) |
 
 ## From wallet to signed block
 
@@ -74,6 +80,7 @@ A badge in a README is a number someone typed. We'd rather you check the chain i
 <br/>
 
 <p align="center">
-  <sub>Prisma Chain · built on light 
+  <sub>Prisma Chain · built on light · <a href="mailto:hello@prismachain.xyz">hello@prismachain.xyz</a></sub>
 </p>
+
 
