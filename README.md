@@ -13,7 +13,7 @@
   <a href="https://prismachain.it.com/"><b>prismachain.it.com</b></a> &nbsp;│&nbsp;
   <a href="https://prismachain.it.com/explorer/">Blobspace Explorer</a> &nbsp;│&nbsp;
   <a href="https://x.com/prismablocks">X</a> &nbsp;│&nbsp;
-  <a href="https://medium.com/@PrismaCo">Medium</a> &nbsp;│&nbsp</a>
+  <a href="https://medium.com/@PrismaCo">Medium</a>
 </p>
 
 ## Refraction
@@ -33,11 +33,7 @@ We keep the list short on purpose. Every chain has its own consensus, rekey cade
 | 🔵 | `CH 05` | **Fetch.ai** | Infrastructure for autonomous agents and AI services | [ping.pub ↗](https://ping.pub/fetchhub/staking/fetchvaloper1cfgswfuzmdz4f8n2anct5qzj4crvt3cj4hfxm9) |
 | 🟣 | `CH 06` | **Akash** | Open marketplace for decentralized compute | [mintscan ↗](https://www.mintscan.io/akash/validators/akashvaloper1m6mzzsrgag22n9dtdwsmnrtjqzpudfz6gdhc9j) |
 
-**On testnet**
-
-| | Channel | Network | What it is | Validator |
-|:-:|:-:|---|---|---|
-| ⚪ | `TEST` | **Celestia** · `mocha-5` | The data-availability layer our [Blobspace Explorer](https://prismachain.it.com/explorer/) reads from | [Krews dashboard ↗](https://celestia-dashboard.krews.xyz/celestia-mocha/validators/celestiavaloper1egp30ktgq9805l6es7vs9skl7yt2q7wrj9jc4u) |
+Celestia runs on testnet for now; it has its own section below.
 
 ## From wallet to signed block
 
@@ -51,9 +47,19 @@ We keep the list short on purpose. Every chain has its own consensus, rekey cade
 - **Sign.** Hardware modules in three datacenters have to reach a 3-of-5 quorum before a block is signed. Keys stay inside the hardware, and no key is reused across chains.
 - **Earn.** Rewards come straight from the protocol to your wallet. Our commission is the only cut, and there's no minimum delegation on our side.
 
-## Blobspace Explorer
+## Celestia
 
-<a href="https://prismachain.it.com/explorer/"><b>prismachain.it.com/explorer</b></a> is our public tool. It answers one question: **how much do rollups save by posting data to Celestia instead of Ethereum?**
+Most of what we build in public is about Celestia's data layer: what gets written there, by whom, and what it costs. We run a validator on the `mocha-5` testnet and publish two tools, one for the browser and one for the terminal.
+
+| | |
+|---|---|
+| **Validator** | `mocha-5` testnet · [`celestiavaloper1egp3…j9jc4u`](https://celestia-dashboard.krews.xyz/celestia-mocha/validators/celestiavaloper1egp30ktgq9805l6es7vs9skl7yt2q7wrj9jc4u) on the Krews dashboard |
+| **[Blobspace Explorer](https://prismachain.it.com/explorer/)** | Live view of Celestia blobspace and what rollups save by posting there |
+| **[blobspace](https://github.com/Prisma-Chain/blobspace)** | Command-line tool that reads the same data straight from a node |
+
+### Blobspace Explorer
+
+<a href="https://prismachain.it.com/explorer/"><b>prismachain.it.com/explorer</b></a> answers one question: **how much do rollups save by posting data to Celestia instead of Ethereum?**
 
 It reads live from Celenium and public Celestia REST, prices each blob against Ethereum calldata at about 30 gwei, and refreshes every 12 seconds.
 
@@ -69,6 +75,18 @@ It reads live from Celenium and public Celestia REST, prices each blob against E
 > [!NOTE]
 > Savings are an estimate. They compare what a namespace actually paid on Celestia with what the same bytes would cost as Ethereum calldata at a fixed gas price. Blob-space pricing on Ethereum would give a different, lower number.
 
+### blobspace CLI
+
+The explorer shows the whole network. **[blobspace](https://github.com/Prisma-Chain/blobspace)** is for one question at a time, from your own shell. It needs no API key, only a Celestia RPC, and works on mainnet and `mocha-5`.
+
+```bash
+blobspace quote 1MB        # Celestia vs Ethereum blobs vs calldata, at today's gas
+blobspace shape            # namespaces in the last 200 blocks: volume, blob size, wasted share space, utia/KB
+blobspace tail             # every PayForBlobs as it lands
+```
+
+`quote` compares against Ethereum **blobs** as well as calldata, using live fees, so it shows the comparison the explorer's headline number leaves out.
+
 ## Why there are no uptime badges here
 
 A badge in a README is a number someone typed. We'd rather you check the chain itself: every validator above links to an independent explorer that shows its signatures, missed blocks and jail history.
@@ -79,7 +97,7 @@ A badge in a README is a number someone typed. We'd rather you check the chain i
 <br/>
 
 <p align="center">
-  <sub>Prisma Chain · built on light 
+  <sub>Prisma Chain · built on light · <a href="https://prismachain.it.com/">prismachain.it.com</a></sub>
 </p>
 
 
