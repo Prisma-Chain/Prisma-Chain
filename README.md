@@ -13,8 +13,7 @@
   <a href="https://prismachain.it.com/"><b>prismachain.it.com</b></a> &nbsp;│&nbsp;
   <a href="https://prismachain.it.com/explorer/">Blobspace Explorer</a> &nbsp;│&nbsp;
   <a href="https://x.com/prismablocks">X</a> &nbsp;│&nbsp;
-  <a href="https://medium.com/@PrismaCo">Medium</a> &nbsp;│&nbsp;
-  <a href="mailto:hello@prismachain.xyz">hello@prismachain.xyz</a>
+  <a href="https://medium.com/@PrismaCo">Medium</a> &nbsp;│&nbsp</a>
 </p>
 
 ## Refraction
@@ -80,7 +79,7 @@ A badge in a README is a number someone typed. We'd rather you check the chain i
 <br/>
 
 <p align="center">
-  <sub>Prisma Chain · built on light · <a href="mailto:hello@prismachain.xyz">hello@prismachain.xyz</a></sub>
+  <sub>Prisma Chain · built on light 
 </p>
 
 
