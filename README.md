@@ -87,6 +87,8 @@ blobspace tail             # every PayForBlobs as it lands
 
 `quote` compares against Ethereum **blobs** as well as calldata, using live fees, so it shows the comparison the explorer's headline number leaves out.
 
+**→ [github.com/Prisma-Chain/blobspace](https://github.com/Prisma-Chain/blobspace)**
+
 ## Why there are no uptime badges here
 
 A badge in a README is a number someone typed. We'd rather you check the chain itself: every validator above links to an independent explorer that shows its signatures, missed blocks and jail history.
@@ -99,5 +101,3 @@ A badge in a README is a number someone typed. We'd rather you check the chain i
 <p align="center">
   <sub>Prisma Chain · built on light · <a href="https://prismachain.it.com/">prismachain.it.com</a></sub>
 </p>
-
-
